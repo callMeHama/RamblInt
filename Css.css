@@ -1,0 +1,253 @@
+body{
+	background-color:#e4e4e4;
+	margin:0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #397b38;
+}
+
+li {
+  float: left;
+  font-size:2.5vw;
+  margin-left:0.25%; 
+  color:white;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #1b4622;
+  text-shadow: 0 0 0.5vw white;
+  transition:0.4s;
+}
+
+.hdcred{
+	position:relative;top:-15px;position:absolute; float:left;
+}
+.headimg{
+	height:300px;
+	top:-47px;
+	position:relative;
+	background-image:url('Rambling.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 4px 15px grey;
+}
+.hh1{
+	color:#e8f3f7;
+	text-shadow: 0 0 15px black;
+	text-align:center;
+	font-size:70px;
+	padding:5%;
+	position:static;
+}
+/*Time for short home descriptions to look better*/
+.htxt{
+	text-align:center;
+	color:tomato;
+	text-shadow: 0 0 3px;
+	margin-top: 30px;
+}
+.himg{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:3%;
+	width:60%;
+	display:block;
+	box-shadow: 0 0 15px black;
+}
+.hcred{
+	text-align:center;
+}
+footer{
+	height:100px;
+	width:100%;
+	display:inline-block;
+	position:relative;
+	bottom:0;
+	right:0;
+}
+.ttr{
+	background-color:#1DA1F2;
+	width:33.33%;
+	height:90%;
+	float:right;
+	box-shadow: 0 0 30px black;
+	
+}
+.fbk{
+	background-color:#4267B2;
+	width:33.33%;
+	height:90%;
+	float:left;
+	box-shadow: 0 0 30px black;
+	
+}
+.ins{
+	background-color:#F56040;
+	width:33.33%;
+	height:90%;
+	float:left;
+	box-shadow: 0 0 30px black;
+	bottom:0;
+}
+.smtxt{
+	text-align:center;color:white;font-size:2vw;
+}
+.nbsrch{
+	background:silver;
+	height:3vw;
+	border-radius: 3vw;
+	margin:0.5vw;
+	padding:2vw;
+	width:95%;
+}
+
+.nbtxt{
+	width:99%;
+	padding:0.5vw;
+	font-size:1vw;
+	border-radius:1vw;
+	border-color:silver;
+	margin:auto;
+	display:block;
+	}
+.nbbtn
+{
+	font-size:1vw;
+	width:10%;
+	border-radius:1vw;
+	border-color:silver;
+	margin:auto;
+	display:block;
+	margin-top: 0.5vw;
+}
+
+/*--------------------------------------------------------------------Home Finishes Here-----------------------------------------------------------*/
+.rgstr {
+   background-color: silver;
+   position: relative;
+   width: auto;
+   margin:auto;
+   margin-top:5%;
+   margin-bottom:5%;
+   margin-left:10%;
+   margin-right:10%;
+   box-shadow: 0 0 40px;
+   border-style:solid;
+   padding:2vw;
+   border-color:silver;
+   border-radius:2vw;
+}
+.sbmt{
+	margin:5px;
+	position:relative;
+	font-size:2vw;
+}
+/*--------------------------------------------------------------------Register Finishes Here-----------------------------------------------------------*/
+.waw{
+	text-align:center;
+}
+.abimg{
+	margin:auto;
+	display:block;
+	width:60%;
+}
+.abdes{
+	text-align:center;
+	font-size:40px;
+	font-size:2.5vw;
+}
+/*--------------------------------------------------------------------About Finishes Here-----------------------------------------------------------*/
+.bnttl{
+	font-size: 3vw;
+	text-align: center;
+}
+.bnsbtl{
+	font-size: 2vw;
+	text-align: center;
+}
+.bnimg{
+	display:block;
+	margin: auto;
+	width: 60%
+}
+.bncred{
+	text-align:center;
+}
+.bndscrp{
+	text-align:center;
+	font-size:1.7vw;
+	margin-left:5%;
+	margin-right:5%;
+}
+/*--------------------------------------------------------------------Book Now Finishes Here-----------------------------------------------------------*/
+.qnbtn{
+	border:none;
+	background-color: rgb(83, 83, 83);
+	font-size:3vw;
+	color:white;
+	margin:auto;
+	display:block;
+}
+.qnbtn :hover{
+	border-radius: 1.5vw;
+	box-shadow: 0 0 5px black;
+}
+.qntxt{
+	font-size:2.5vw;
+}
+.qnans{
+	font-size:1.7vw;
+}
+.txtinp
+{
+	height:1.5vw;
+	width:95%;
+	margin:auto; 
+	display:block;
+}
+.btninp{
+	font-size:1.5vw; float:right; margin-right:2.5%; margin-top: 1%;
+}
+.rgstbtn{
+	font-size:2.5vw; margin: auto;display:block;
+}
+/*--------------------------------------------------------------------Qna Finishes Here-----------------------------------------------------------*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+	font-size:1.5vw;
+	box-shadow:0 0 15px;
+}
+
+td, th {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 11px;
+}
+
+tr:nth-child(even) {
+  background-color: #c8ccc9;
+}
+/*--------------------------------------------------------------------Current Program Finishes Here-----------------------------------------------------------*/
+@media only screen and (max-width: 802px) {
+li {
+  font-size:1.9vw;
+}
+}
+@media only screen and (max-width: 574px) {
+li {
+  font-size:1.7vw;
+}
+}
